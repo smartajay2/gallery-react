@@ -12,13 +12,13 @@ const root= ReactDOM.createRoot(document.getElementById ("root"))
 
 function NameOne(props){
   return(
-  <div >
-    <div style={{display:'flex',flexWrap:'wrap' }}>
-      <img className='imagese' src={props.Images} alt="" style={{ borderColor: 'red',
+  <div style={{display:'flex',flexWrap:'wrap',gap:20 ,display:'inline-flex',borderWidth:10,padding:10,textAlign:'center',borderColor:' black',borderWidth:14,borderStyle:'solid'}} >
+    <div >
+      <img  src={props.Images} alt="" style={{ borderColor: 'red',flexBasis:28,
           borderWidth: 5,
           height: 100,
           width: 200}}></img>
-      <h1 style={{marginTop:0,fontSize:20}}>{props.Namee}</h1>
+      <h1   style={{marginTop:0,fontSize:20,width: 200}}>{props.Namee}</h1>
     </div>
     
     
@@ -54,7 +54,35 @@ var gallery=[
   {
     Images:seven,
     Namee:"julie's Rabbit Ears" 
+  },  {
+    Images:one,
+    Namee:"julie's Rabbit Ears" 
+  },  
+  {
+    Images:two,
+    Namee:"Danger Look" 
+  },
+  {
+    Images:three,
+    Namee:"Hai I Am Mani" 
+  },  
+  {
+    Images:four,
+    Namee:"The innocent look" 
+  },  
+  {
+    Images:five,
+    Namee:"julie's Rabbit Ears" 
+  }, 
+  {
+    Images:six,
+    Namee:"julie's Rabbit Ears" 
+  },  
+  {
+    Images:seven,
+    Namee:"julie's Rabbit Ears" 
   }
+
 
 ]
 
